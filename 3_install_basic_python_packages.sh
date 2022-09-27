@@ -1,7 +1,7 @@
 sudo apt install -y libopenblas-base
 sudo apt install -y gfortran libopenmpi-dev liblapack-dev libatlas-base-dev
 sudo apt install -y libgeos-dev
-sudo apt-get install libgeos-c1v5
+sudo apt-get install -y libgeos-c1v5
 
 ### Pip installation
 pip3 install Cython==0.29.28
@@ -12,3 +12,4 @@ pip3 install pandas==0.22.0
 pip3 install Shapely==1.6.4
 pip3 install tqdm==4.63.0
 pip3 install getmac
+sudo -H pip3 install setuptools==58.3.0
